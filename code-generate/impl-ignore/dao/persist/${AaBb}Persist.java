@@ -1,6 +1,6 @@
-package cc.linkedme.page.dao.persist;
+package ${package_name}.dao.persist;
 
-import cc.linkedme.errorcode.BaseErrorCode;
+import ${package_name}.errorcode.BaseErrorCode;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import lombok.extern.slf4j.Slf4j;

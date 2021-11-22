@@ -1,7 +1,7 @@
-package cc.linkedme.page.service.impl;
+package ${package_name}.service.impl;
 
-import cc.linkedme.errorcode.BaseErrorCode;
-import cc.linkedme.exception.BusinessException;
+import ${package_name}.errorcode.BaseErrorCode;
+import ${package_name}.exception.BusinessException;
 import com.github.pagehelper.PageInfo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

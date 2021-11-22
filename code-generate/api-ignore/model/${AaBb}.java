@@ -1,4 +1,4 @@
-package cc.linkedme.page.model;
+package ${package_name}.model;
 
 import lombok.Data;
 

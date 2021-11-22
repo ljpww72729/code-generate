@@ -1,4 +1,4 @@
-package cc.linkedme.page.model.request;
+package ${package_name}.model.request;
 
 import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;

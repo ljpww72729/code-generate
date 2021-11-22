@@ -1,10 +1,10 @@
-package cc.linkedme.page.web;
+package ${package_name}.web;
 
-import cc.linkedme.entities.PageInfoResp;
-import cc.linkedme.errorcode.BaseErrorCode;
-import cc.linkedme.page.interceptor.RequiredLogin;
-import cc.linkedme.page.model.FrameResp;
-import cc.linkedme.util.Preconditions;
+import ${package_name}.entities.PageInfoResp;
+import ${package_name}.errorcode.BaseErrorCode;
+import ${package_name}.page.interceptor.RequiredLogin;
+import ${package_name}.page.model.FrameResp;
+import ${package_name}.util.Preconditions;
 import com.github.pagehelper.PageInfo;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;

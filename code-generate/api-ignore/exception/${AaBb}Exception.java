@@ -1,4 +1,4 @@
-package cc.linkedme.page.exception;
+package ${package_name}.exception;
 
 
 /**

@@ -1,6 +1,6 @@
-package cc.linkedme.page.model.search;
+package ${package_name}.model.search;
 
-import cc.linkedme.bo.BaseQueryParam;
+import ${package_name}.bo.BaseQueryParam;
 import lombok.Data;
 
 /**

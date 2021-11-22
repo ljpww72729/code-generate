@@ -2,7 +2,7 @@ package cc.linkedme.page.dao.cache;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
-import cc.linkedme.json.JsonConverter;
+import ${package_name}.json.JsonConverter;
 
 import javax.annotation.Resource;
 import java.util.concurrent.TimeUnit;

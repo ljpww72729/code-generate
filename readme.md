@@ -1,5 +1,18 @@
 ## 代码生成配置说明
 
+### 打包插件jar包
+
+```
+mvn clean install -Dmaven.test.skip=true 
+```
+
+### 本地安装
+
+```
+mvn install:install-file -Dfile=target/code-generate-1.1.1.jar -DgroupId=cc.linkedme -DartifactId=code-generate -Dversion=1.1.1 -Dpackaging=jar -DgeneratePom=true
+
+```
+
 ### 配置文件声明
 
 codeGeneratorConfig.json 配置如下，该配置文件用于配置需要替换的字符串
