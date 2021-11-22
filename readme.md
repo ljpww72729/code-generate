@@ -8,6 +8,8 @@ mvn clean install -Dmaven.test.skip=true
 
 ### 本地安装
 
+执行上面的 打包插件jar包 后，就不需要执行下面的命令，会出问题，原因未知！！！
+
 ```
 mvn install:install-file -Dfile=target/code-generate-1.1.1.jar -DgroupId=cc.linkedme -DartifactId=code-generate -Dversion=1.1.1 -Dpackaging=jar -DgeneratePom=true
 
