@@ -1,4 +1,4 @@
-package cc.linkedme.page.dao.cache;
+package ${package_name}.dao.cache;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
